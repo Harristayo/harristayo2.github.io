@@ -20,7 +20,7 @@ header h1 {
   background-position: left top;
   background-repeat: no-repeat;
 }
-h1 {
+#container {
   margin-bottom: 30px;
 }
 nav {
@@ -30,8 +30,8 @@ nav {
 }
 
 nav ul {
-  margin: 0px;
   padding: 0px;
+  margin: 0px;
   list-style-type: none;
   color: #7C1A00;
 
@@ -55,11 +55,11 @@ nav a {
 nav a:hover {
   background-color: #7C1A00;
 }
-h2 {
+#content {
  background-image: url("trans-bg.gif");
  border: 1px solid #CCCCCC;
- margin-right: 180px;
- padding: 1px;
+ margin-left: 180px;
+ padding: 10px;
 
 }
 
